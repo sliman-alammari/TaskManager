@@ -1,7 +1,10 @@
+#pragma once
+
 #include <iostream>
 #include "TaskManager.h"
 
 using namespace std;
+
 
 void ShowTasks()
 {
@@ -10,13 +13,13 @@ void ShowTasks()
 
 void AddTask()
 {
-    cout << "Task added successfully." << endl;
+      cout << "Task added successfully." << endl;
 }
-
 
 void EditTask()
 {
     cout << "Task edited successfully." << endl;
+}
 
 void DeleteTask()
 {
